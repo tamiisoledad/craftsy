@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/bg-2.png');
+}
+
+header {
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div.logo {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+header .boton {
+    margin-right: 5px;
+}
+
+header .boton i {
+    font-size: 20px;
+    color: white;
+}
+
+main .articulos {
+    margin: 20px auto 0;
+    background-color: white;
+    width: 90%;
+    
+}
+
+main .articulos article {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .articulos article div h3 {
+    margin-top: 10px;
+}
+
+main .articulos article div p {
+    margin-top: 10px;
+}
+
+main .articulos article a {
+    margin-top: 5px;
+    padding: 6px;
+    background-color: orangered;
+    align-self: flex-start;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
