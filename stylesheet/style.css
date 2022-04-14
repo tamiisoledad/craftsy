@@ -33,7 +33,6 @@ main .articulos {
     margin: 20px auto 0;
     background-color: white;
     width: 90%;
-    
 }
 
 main .articulos article {
@@ -59,4 +58,62 @@ main .articulos article a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
+}
+
+main .tutoriales {
+    margin: 20px auto 0;
+    width: 90%;
+}
+
+main .tutoriales .titulo {
+    margin: 15px 0;
+    background-color: white;
+    height: 35px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+main .tutoriales .titulo h3 {
+    font-size: 30px;
+}
+
+main .tutoriales .contenedor div {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+main .tutoriales .contenedor div p {
+    margin-left: 5px;
+}
+
+main .publicidad {
+    margin: 20px auto 0;
+    width: 90%;
+}
+
+main .publicidad .titulo {
+    margin: 15px 0;
+    background-color: white;
+    height: 35px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+main .publicidad .titulo h3 {
+    font-size: 30px;
+}
+
+main .publicidad .contenedor {
+    background-color: white;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+main .publicidad .contenedor div {
+    padding: 5px;
 }
