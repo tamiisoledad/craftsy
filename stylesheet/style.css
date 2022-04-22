@@ -29,6 +29,10 @@ header .boton i {
     color: white;
 }
 
+header .menu {
+  display: none;
+}
+
 main .articulos {
     margin: 20px auto 0;
     background-color: white;
@@ -116,4 +120,197 @@ main .publicidad .contenedor {
 
 main .publicidad .contenedor div {
     padding: 5px;
+}
+
+footer {
+    background-color: orangered;
+    height: 170px;
+}
+
+footer .redes {
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer .redes a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+footer .info {
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer .info ul li {
+    margin-bottom: 10px;
+}
+
+footer .info ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MEDIA QUERY TABLET */
+
+@media (min-width: 480px) {
+  header .boton i {
+    font-size: 25px;
+  }
+
+  main .articulos article {
+    align-items: center;
+  }
+
+  main .articulos article div img {
+    margin-top: 10px;
+  }
+
+  main .articulos article .infoProducto {
+    margin-left: 30px;
+  }
+
+  main .articulos article a {
+    margin-left: 30px;
+  }
+
+  footer .info ul li a {
+    font-size: 17px;
+  }
+}
+
+/* MEDIA QUERY LAPTOP */
+
+@media (min-width: 760px) {
+  header .boton {
+    display: none;
+  }
+
+  header .menu {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+  }
+
+  header .menu .categorias {
+    display: flex;
+  }
+
+  header .menu .categorias li {
+    list-style: none;
+    margin-right: 15px;
+  }
+
+  header .menu .categorias li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  header .menu .lista {
+    display: flex;
+  }
+
+  header .menu .lista li {
+    list-style: none;
+    margin-right: 15px;
+  }
+
+  header .menu .lista li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  main .articulos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main .articulos article {
+    width: 50%;
+  }
+
+  main .aside {
+    display: flex;
+  }
+
+  main .tutoriales {
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+
+  main .publicidad {
+    width: 50%;
+  }
+
+  main .publicidad .titulo {
+    width: 350px;
+  }
+
+  main .publicidad .contenedor {
+    width: 350px;
+    height: 435px;
+  }
+
+  main .publicidad div{
+    width: 244px;
+  }
+
+  main .publicidad div img{
+    width: 100%;
+  }
+
+  footer .redes {
+    margin-left: 31%;
+    width: 50%;
+  }
+
+  footer .redes a {
+    font-size: 45px;
+    margin-right: 75px;
+  }
+
+  footer .info ul li a {
+    font-size: 19px;
+  }
+}
+
+/* MEDIA QUERY DESKTOP */
+
+@media (min-width: 1250px){
+  header {
+    height: 60px;
+  }
+
+  header .menu ul li a {
+    font-size: 18px;
+  }
+
+  main {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  main .articulos {
+    margin-left: 15px;
+    width: 75%;
+  }
+
+  main .aside {
+    flex-direction: column;
+    width: 25%;
+    margin-left: 10px;
+  }
+
+  main .tutoriales {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  main .publicidad {
+    width: 100%;
+  }
 }
